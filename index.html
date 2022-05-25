@@ -1,0 +1,152 @@
+<!--
+======================================================================
+    Name        : index.html
+    Author      : xiayudev
+    Date        : 2022.05.23 -- Monday at 10:51:21
+    Copyright   : COPYRIGHT
+    Description : This file is about Animation Praxis.
+
+======================================================================
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="robots" content="index,follow" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="Animation Praxis" />
+		<link
+			rel="icon"
+			sizes="192x192"
+			href="https://cdn.freebiesupply.com/logos/large/2x/linux-tux-1-logo-png-transparent.png"
+		/>
+		<link rel="stylesheet" href="./css/main.css" />
+		<title>Animation Heroes</title>
+
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+
+	<body>
+		<div class="page">
+			<!-- Main content -->
+			<section class="container">
+				<header>
+					<nav class="navbar-content">
+						<picture>
+							<img
+								src="https://i.ibb.co/MMmDPXN/lego.png"
+								alt="Logo de la empresa."
+							/>
+						</picture>
+						<ul>
+							<li><a href="#">EXCLUSIVOS</a></li>
+							<li><a href="#">NUEVOS</a></li>
+							<li><a href="#">GIFT CARDS</a></li>
+							<li><a href="#">FIND A STORE</a></li>
+						</ul>
+					</nav>
+				</header>
+
+				<main>
+					<section class="main-content">
+						<p>Diseña tu</p>
+						<h1>S&uacute;per H&eacute;roe!</h1>
+						<p class="content">
+							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima
+							voluptates qui itaque corrupti quidem expedita et omnis laboriosam
+							asperiores magnam ullam nihil mollitia quaerat hic fugiat nobis
+							deleniti, unde voluptatem!
+						</p>
+					</section>
+				</main>
+
+				<aside>
+					<section class="side-content">
+						<div>
+							<p>Superman</p>
+						</div>
+						<div></div>
+						<picture>
+							<img
+								src="https://i.ibb.co/x16pz1x/super-man.png"
+								alt="Lego de superman"
+							/>
+						</picture>
+					</section>
+				</aside>
+
+				<footer>
+					<section class="footer-content">
+						<picture id="button-1">
+							<img
+								src="https://i.ibb.co/tKWqw8J/spiderman.png"
+								alt="spiderman lego"
+							/>
+						</picture>
+						<picture id="button-2">
+							<img src="https://i.ibb.co/Xzsdvgg/robin.png" alt="superhero lego" />
+						</picture>
+						<picture id="button-3">
+							<img src="https://i.ibb.co/M18p91c/batman.webp" alt="batman lego" />
+						</picture>
+					</section>
+				</footer>
+			</section>
+
+			<!-- Loader (3 puntos cargando)-->
+			<section class="loader">
+				<div class="circles-container">
+					<div class="circle"></div>
+					<div class="circle"></div>
+					<div class="circle"></div>
+				</div>
+			</section>
+
+			<!-- Modal -->
+			<section class="modal hidden">
+				<div class="modal__content">
+					<img
+						class="modal__content--close"
+						src="https://img.icons8.com/windows/32/000000/macos-close.png"
+						alt="button close"
+					/>
+
+					<div class="modal__content--slider">
+						<input class="hidden" type="radio" name="slider-1" id="radio-1" checked />
+						<input class="hidden" type="radio" name="slider-1" id="radio-2" />
+						<input class="hidden" type="radio" name="slider-1" id="radio-3" />
+
+						<div class="cards">
+							<label for="radio-1" id="card-1" class="card">
+								<img
+									src="https://static.platzi.com/media/public/uploads/spider-man-3_19f5c510-8059-4477-abf8-42249a5445b7.png"
+									alt="spiderman-1"
+								/>
+							</label>
+							<label for="radio-2" id="card-2" class="card">
+								<img
+									src="https://static.platzi.com/media/public/uploads/spider-man-2_b24c96b3-6d59-496f-815d-32b25eba0141.png"
+									alt="spiderman-2"
+								/>
+							</label>
+							<label for="radio-3" id="card-3" class="card">
+								<img
+									src="https://static.platzi.com/media/public/uploads/spider-man_db8af43d-b692-4986-a385-e645d286e142.png"
+									alt="spiderman-3"
+								/>
+							</label>
+						</div>
+						<button class="btn-primary">I want it!</button>
+					</div>
+				</div>
+			</section>
+		</div>
+		<script src="./js/script.js" async></script>
+	</body>
+</html>
